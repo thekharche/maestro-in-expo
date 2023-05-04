@@ -1,0 +1,31 @@
+appId: com.thekharche.withformik
+---
+- launchApp
+- runFlow:
+    when:
+      visible:
+        text: "Got It"
+    commands:
+      - tapOn:
+          text: "Got It"
+- runFlow:
+    when:
+      visible:
+        text: "with-formik"
+    commands:
+      - tapOn:
+          text: "with-formik"
+- tapOn:
+    text: "Login"
+- assertVisible:
+    text: ".*required field.*"
+- tapOn: "Enter email"
+- inputRandomEmail
+- tapOn: "Enter password"
+- inputText: ${PASSWORD}
+- tapOn:
+    text: "Login"
+- assertVisible:
+    text: "Alert"
+- tapOn:
+    text: "OK"

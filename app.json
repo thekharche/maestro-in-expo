@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "with-formik",
+    "slug": "with-formik",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.thekharche.withformik"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f5d8d9dd-1acd-4d79-9fa4-203e2b07f1e4"
+      }
+    }
+  }
+}
