@@ -55,7 +55,7 @@ export default function App() {
               style={styles.input}
               numberOfLines={1}
               value={values.email}
-              placeholder="Enter email"
+              placeholder="Enadter email"
               onChangeText={handleChange("email")}
               autoCapitalize="none"
               autoCompleteType="email"
